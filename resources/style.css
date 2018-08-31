@@ -1,8 +1,8 @@
 /* Universal */
 
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0 0;
+    padding: 0 0;
 }
 
 div {
@@ -10,8 +10,8 @@ div {
 }
 
 h2 {
-    display: block
-    font-size: 1.5em;
+    display: block;
+    font-size: 24px;
     font-weight: bold;
 }
 /* Header Section */
@@ -41,13 +41,16 @@ nav span {
     color: black;
 }
 
+a {
+    color: black;
+}
+
 .logo {
     color: mediumaquamarine;
     display: flex;
     padding-left: 30px;
     align-items: center;
     flex-grow: 1;
-    border: 1px solid black;
 }
 
 
@@ -77,6 +80,8 @@ nav span {
 
 .columnthree {
     width: 240px;
+    display: flex;
+    flex-direction: column;
 }
 
 .story {
@@ -148,3 +153,54 @@ nav span {
 }
 
 
+/* Column Three */
+
+.news-bites {
+    display: flex;
+    flex-direction: column;
+    background-color: WhiteSmoke;
+    font-family: Verdana;
+    font-size: 12px;
+    color: DimGray;
+}
+
+.nb {
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+
+.bite {
+    border-bottom: 1px solid black;
+    padding: 11px 20px;
+}
+
+
+/* Footer */
+
+footer {
+    display: flex;
+    background-color: MediumAquamarine;
+    margin: auto;
+    font-family: Verdana;
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.info {
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-title {
+    font-family: Georgia;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    padding-right: 20px;
+    border-right: 2px solid white;
+}
